@@ -11,7 +11,7 @@
                         <li><a href="#">Нягтлан</a></li>
                       </ul>
                       </div>
-			<form class="form-horizontal" role="form">
+                    <form action="add" method="post" class="form-horizontal" role="form">
                     <div class="form-group">
                       <label class="col-sm-2 control-label">Овог</label>
                       <div class="col-sm-10">
@@ -41,7 +41,6 @@
                           </select>
                         </div>
                       </div>
-                  
                   <div class="form-group">
                       <label class="col-sm-2 control-label">И-мэйл</label>
                       <div class="col-sm-10">
@@ -83,6 +82,9 @@
                             
                           </select>
                         </div>
+                         <div class="form-group">
+                        <button type="button" class="btn btn-info">Бүртгэх</button>
+                        </div>  
                       </div>    
                   </div> 
                   </div> 

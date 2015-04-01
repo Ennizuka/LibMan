@@ -1,6 +1,6 @@
 <?php namespace App\Http\Controllers;
 
-class AccountantController extends Controller {
+class LibrarianController extends Controller {
 
 	/*
 	|--------------------------------------------------------------------------
@@ -30,7 +30,6 @@ class AccountantController extends Controller {
 	 */
 	public function index($id)
 	{
-		return view('accountant.accountant');
+		return view('librarian.librarian');
 	}
-      
 }

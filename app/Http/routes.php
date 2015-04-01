@@ -13,6 +13,7 @@
 
 Route::get('/', 'WelcomeController@index');
 Route::get('/accountant/{id}', 'AccountantController@index');
+Route::get('/librarian/{id}', 'LibrarianController@index');
 
 Route::get('home', 'HomeController@index');
 

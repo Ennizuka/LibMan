@@ -19,7 +19,9 @@
 	<![endif]-->
 </head>
 <body>
+    
 	<nav class="navbar navbar-default">
+            
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -32,14 +34,8 @@
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li><a href="{{ url('/') }}">Нүүр</a></li>
-                                   
-                                       
-                                        
-                                       
-                                          
-				</ul>
+                            
+				<a class="navbar-brand" href="#">Нүүр   </a>
 
 				<ul class="nav navbar-nav navbar-right">
 					@if (Auth::guest())
@@ -55,13 +51,30 @@
 					@endif
 				</ul>
 			</div>
+                    
 		</div>
+            
 	</nav>
+    <header class="intro-header" style="background-image: url('/img/b1.png')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>Library Management System</h1>
+                        <hr class="small">
+                        <span class="subheading"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
+      
 	@yield('content')
 
 	<!-- Scripts -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="//public/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/bootstrap/js/bootstrap.min.js"></script>
+	
 </body>
 </html>
